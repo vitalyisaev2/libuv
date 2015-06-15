@@ -6,9 +6,9 @@ include /usr/share/dpkg/default.mk
 # Uncomment this to turn on verbose mode.
 export DH_VERBOSE=1
 
-export SOVER=$(LATEST_TAG)
-export SONAME=libuv.so.$(SOVER)
-export SOPKG=libuv$(SOVER)
+# export SOVER=$(LATEST_TAG)
+# export SONAME=libuv.so.$(SOVER)
+# export SOPKG=libuv$(SOVER)
 
 %:
 	./autogen.sh

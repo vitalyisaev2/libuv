@@ -1,2 +1,3 @@
 #!/usr/bin/dh-exec
-usr/lib/${DEB_HOST_MULTIARCH}/${SONAME} usr/lib/${SONAME}
+usr/lib/${DEB_HOST_MULTIARCH}/*.so*
+usr/lib/${DEB_HOST_MULTIARCH}/*.a
