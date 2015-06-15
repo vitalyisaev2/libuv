@@ -54,7 +54,7 @@ Description: asynchronous event notification library - runtime library
  This package includes the dynamic library against which you can link
  your program.
 
-Package: libuv1
+Package: libuv1-dbg
 Priority: extra
 Section: debug
 Architecture: any
