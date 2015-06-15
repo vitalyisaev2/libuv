@@ -11,6 +11,7 @@ export SONAME=libuv.so.$(SOVER)
 export SOPKG=libuv$(SOVER)
 
 %:
+	./autogen.sh
 	dh $@
 
 # override_dh_auto_install:
