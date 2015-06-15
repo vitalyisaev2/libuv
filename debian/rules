@@ -13,13 +13,13 @@ export SOPKG=libuv$(SOVER)
 %:
 	dh $@
 
-override_dh_auto_install:
-	dh_auto_install
-
-override_dh_auto_build:
-	dh_auto_build -- libuv.so
-	dh_auto_build -- libuv.a
-
+# override_dh_auto_install:
+# 	dh_auto_install
+# 
+# override_dh_auto_build:
+# 	dh_auto_build -- libuv.so
+# 	dh_auto_build -- libuv.a
+# 
 override_dh_strip:
 	dh_strip --dbg-package=$(SOPKG)-dbg
 	sed -i s/@DEB_HOST_MULTIARCH@/$(DEB_HOST_MULTIARCH)/ debian/${SOPKG}-dev/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/libuv.pc

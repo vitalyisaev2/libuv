@@ -3,6 +3,8 @@ Priority: optional
 Maintainer: Vitaly Isaev <vitalyisaev2@gmail.com>
 Build-Depends: debhelper (>= 9),
                dh-exec (>=0.3),
+               automake,
+               libtool,
                libkvm-dev [kfreebsd-any]
 Standards-Version: 3.9.5
 Section: libs
@@ -54,7 +56,7 @@ Description: asynchronous event notification library - runtime library
  This package includes the dynamic library against which you can link
  your program.
 
-Package: libuv1-dbg
+Package: libuv-dbg
 Priority: extra
 Section: debug
 Architecture: any

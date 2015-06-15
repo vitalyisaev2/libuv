@@ -1,4 +1,4 @@
 #!/usr/bin/dh-exec
 include/uv.h usr/include
-libuv.a usr/lib/${DEB_HOST_MULTIARCH}
+#libuv.a usr/lib/${DEB_HOST_MULTIARCH}
 debian/libuv.pc usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig
