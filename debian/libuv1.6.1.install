@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+libuv.so => usr/lib/${DEB_HOST_MULTIARCH}/${SONAME}
