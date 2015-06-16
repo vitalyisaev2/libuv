@@ -11,7 +11,7 @@ Section: libs
 Homepage: https://github.com/vitalyisaev2/libuv
 Vcs-Browser: https://github.com/vitalyisaev2/libuv
 
-Package: libuv1-dev
+Package: libuv1.6.1-dev
 Section: libdevel
 Architecture: any
 Depends: libuv1 (= ${binary:Version}), ${misc:Depends}
@@ -35,7 +35,7 @@ Description: asynchronous event notification library - development files
  Install this package if you wish to develop your own programs using the
  libuv engine.
 
-Package: libuv1
+Package: libuv1.6.1
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -56,7 +56,7 @@ Description: asynchronous event notification library - runtime library
  This package includes the dynamic library against which you can link
  your program.
 
-Package: libuv1-dbg
+Package: libuv1.6.1-dbg
 Priority: extra
 Section: debug
 Architecture: any

@@ -1,0 +1,6 @@
+#!/usr/bin/dh-exec
+usr/include/*.h usr/include
+include/*.h usr/include
+usr/lib/${DEB_HOST_MULTIARCH}/libuv.a 
+#usr/lib/${DEB_HOST_MULTIARCH}/libuv.so.* 
+debian/libuv.pc usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig

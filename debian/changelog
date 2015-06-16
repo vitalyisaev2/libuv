@@ -1,19 +1,9 @@
 libuv (1.6.1~git20150616-1) utopic; urgency=medium
 
   [ Vitaly Isaev ]
-  * Быстрая правка пакета для получения универсального пакета. Но debian/control всё же надо рендерить из шаблона
-  * Ошибки в control файле
-  * Убрали include/uv-private
-  * актуализация copyright
-  * Ряд исправлений в debian/*
-  * Очередное переименование install файлов"
-  * Запуск скрипта autogen.sh
-  * В поисках правильной конфигурации install файлов
-  * Минимализация всего
+  * Package debianization
 
   [ Autobuilder ]
-  * kiki boi
-  * kiki boi
 
  -- Autobuilder <autobuilder@corp.sputnik.ru>  Tue, 16 Jun 2015 12:53:56 +0300
 
