@@ -1,3 +1,9 @@
+libuv (1.6.1~git20150616-1) utopic; urgency=medium
+
+  * Update README.md
+
+ -- Vitaly Isaev <autobuilder@corp.sputnik.ru>  Tue, 16 Jun 2015 15:25:30 +0300
+
 libuv (0.10.36-1) unstable; urgency=medium
 
   * New upstream version
