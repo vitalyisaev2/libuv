@@ -6,7 +6,7 @@ include /usr/share/dpkg/default.mk
 # Uncomment this to turn on verbose mode.
 export DH_VERBOSE=1
 
-export SOVER=1.6.1
+export SOVER=1
 export SONAME=libuv.so.$(SOVER)
 export SOPKG=libuv$(SOVER)
 
