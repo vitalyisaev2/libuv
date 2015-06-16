@@ -10,6 +10,8 @@ export DH_VERBOSE=1
 # export SONAME=libuv.so.$(SOVER)
 # export SOPKG=libuv$(SOVER)
 
+DEB_DBG_PACKAGES := libuv1-dbg
+
 %:
 	./autogen.sh
 	dh $@
