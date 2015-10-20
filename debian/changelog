@@ -1,3 +1,9 @@
+libuv (1.7.5~git20151020-1) utopic; urgency=medium
+
+  * UNRELEASED
+
+ -- Vitaly Isaev <autobuilder@corp.sputnik.ru>  Tue, 20 Oct 2015 18:01:15 +0300
+
 libuv (1.7.0~git20150818-1) utopic; urgency=medium
 
   * UNRELEASED
